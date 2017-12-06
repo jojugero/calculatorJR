@@ -18,9 +18,11 @@ public class CalculatorApp{
         Scanner scan = new Scanner(System.in);
         
         System.out.println("Bitte geben Sie eine Zhal ein: ");
-        int eingabe1 = Integer.parseInt(scan.nextLine());
+        String input = scan.nextLine();
+        int eingabe1 = Integer.parseInt(input);
         System.out.println("Bitte geben Sie eine Zhal ein: ");
-        int eingabe2 = Integer.parseInt(scan.nextLine());
+        input = scan.nextLine();
+        int eingabe2 = Integer.parseInt(input);
         System.out.println(c.addition(eingabe1,eingabe2));
         
     }

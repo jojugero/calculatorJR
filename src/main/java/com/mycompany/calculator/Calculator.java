@@ -10,13 +10,13 @@ package com.mycompany.calculator;
  * @author 5im15juroesch
  */
 public class Calculator {
-    
-    public Calculator(){
+
+    public Calculator() {
 
     }
-    
-    public int addition(int summand1, int summand2){
+
+    public int addition(int summand1, int summand2) {
         return summand1 + summand2;
     }
-    
+
 }
