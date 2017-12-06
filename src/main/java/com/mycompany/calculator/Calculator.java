@@ -11,7 +11,7 @@ package com.mycompany.calculator;
  */
 public class Calculator {
     
-    Calculator(){
+    public Calculator(){
 
     }
     

@@ -5,6 +5,7 @@
  */
 
 import com.mycompany.calculator.Calculator;
+import com.mycompany.calculator.CalculatorApp;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -33,7 +34,7 @@ public class TestCalculator {
     
     @Before
     public void setUp() {
-        
+        calc = new Calculator();
         
         System.out.println("BEFORE");
     }
@@ -44,7 +45,7 @@ public class TestCalculator {
     
     @Test
     public void testAddition(){
-        calc.addition(2, 3);
+        assertEquals(calc.addition(2, 3), 5);
         
     }
 
